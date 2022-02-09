@@ -15,4 +15,9 @@ public String getAdd() {
 public void setAdd(String add) {
 	this.add = add;
 }
+@Override
+public String toString() {
+	return "student [name=" + name + ", add=" + add + "]";
+}
+
 }
